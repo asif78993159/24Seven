@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>24 Seven - Contact</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#090909;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:black;
+    border-bottom:2px solid gold;
+}
+
+.logo{
+    color:gold;
+    font-size:40px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+}
+nav a:hover{
+    color:gold;
+}
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+}
+.hero h1{
+    color:gold;
+    font-size:60px;
+}
+.hero p{
+    margin-top:12px;
+    font-size:20px;
+}
+
+.contact-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:20px;
+}
+
+.card{
+    width:300px;
+    background:#111;
+    border:1px solid rgba(255,215,0,.3);
+    border-radius:18px;
+    padding:30px;
+    text-align:center;
+    transition:.3s;
+}
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 25px rgba(255,215,0,.2);
+}
+.card h3{
+    color:gold;
+    margin-bottom:15px;
+}
+
+.form-section{
+    width:70%;
+    margin:50px auto;
+    background:#111;
+    padding:35px;
+    border-radius:20px;
+    border:1px solid rgba(255,215,0,.2);
+}
+
+.form-section h2{
+    color:gold;
+    margin-bottom:25px;
+    text-align:center;
+}
+
+input, textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:18px;
+    background:#1b1b1b;
+    border:1px solid #333;
+    color:white;
+    border-radius:10px;
+}
+
+button{
+    width:100%;
+    padding:16px;
+    background:gold;
+    color:black;
+    font-weight:bold;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+}
+
+.trust{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:40px 0;
+}
+.badge{
+    background:#111;
+    padding:15px 25px;
+    border-radius:10px;
+    border:1px solid rgba(255,215,0,.2);
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:25px;
+    color:#999;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">24 Seven</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Contact Us</h1>
+    <p>We are here to help you 24/7</p>
+</section>
+
+<div class="contact-container">
+    <div class="card">
+        <h3>Phone</h3>
+        <p>+91 9867191322</p>
+    </div>
+
+    <div class="card">
+        <h3>Email</h3>
+        <p>as5221775@gmail.com</p>
+    </div>
+
+    <div class="card">
+        <h3>Customer Rating</h3>
+        <p>⭐⭐⭐⭐⭐ 5.0 / 5</p>
+    </div>
+</div>
+
+<div class="trust">
+    <div class="badge">Premium Dri-Fit</div>
+    <div class="badge">Fast Shipping</div>
+    <div class="badge">Bulk Orders</div>
+    <div class="badge">Secure Payment</div>
+</div>
+
+<section class="form-section">
+    <h2>Bulk Order / Inquiry</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Email Address">
+        <input type="text" placeholder="Mobile Number">
+        <textarea rows="5" placeholder="Write your message..."></textarea>
+        <button type="submit">Send Inquiry</button>
+    </form>
+</section>
+
+<footer>
+© 2026 24 Seven | Premium Football Store
+</footer>
+
+</body>
+</html>
